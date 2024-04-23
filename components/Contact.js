@@ -24,6 +24,7 @@ export default function Stack() {
           className="dark:text-white text-black transition-colors duration-500"
           href={`https://github.com/vicvenpet/CV`}
           target="_blank"
+          rel="noreferrer"
         >
           {contact.cv}
         </a>
