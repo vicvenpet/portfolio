@@ -45,7 +45,7 @@ export const stack = {
 
 export const contact = {
   title: 'Contact Me',
-  email: 'victorpetkov2006@gmail.com',
+  email: 'hello@vicvenpet.xyz',
   cv: 'see here!',
   github: 'vicvenpet',
   dribbble: 'vicvenpet',
