@@ -1,34 +1,28 @@
 export const meta = {
-  title: 'LeBron James - Web Developer and Designer',
-  description: 'Hey, I\'m LeBron. I\'m a web developer and designer building things people love.'
+  title: 'Viktor P. - Web Developer',
+  description: 'Hey, I\'m a web developer, I love build and break things.'
 }
 
 export const hero = {
-  title: "Hey there! I'm LeBron James.",
-  desc: "I'm a web developer and designer building things people love."
+  title: "Hey there! I\'m Viktor P.",
+  desc: "I'm a web developer, I love build and break things."
 };
 
 export const projects = {
   title: 'My Projects',
-  desc: "Here are some of my favorite projects that I've worked on.",
+  desc: "Here are some of my favorite projects that I've worked and contributed on.",
   projects: [
     {
-      title: 'Lakers Official',
-      description: 'Home to the Los-Angeles Lakers',
-      link: 'https://lakers.com',
-      github: ''
+      title: 'Skyline Website',
+      description: 'Skyline\'s website is a modern statically generated website built using React + Gatsby, licensed under BSD-3-Clause.',
+      link: 'https://skyline-emu.one',
+      github: 'skyline-emu/website'
     },
     {
-      title: 'Cool App',
-      description: 'A cool app!',
-      link: 'https://lebronscoolapp.com',
-      github: 'theking-lbj/cool-app'
-    },
-    {
-      title: 'Another app',
-      description: 'Another app!',
-      link: 'https://anotherlebronapp.com',
-      github: 'theking-lbj/another-app'
+      title: 'Ovra Store CMS',
+      description: 'Ovra\'s website is a modern dynamic generated website built using React + NextJS. Own API for the CMS. All rights reserved.',
+      link: 'https://ovra.store',
+      github: 'VFPT'
     }
   ]
 };
@@ -44,14 +38,16 @@ export const stack = {
     'NextJS',
     'TailwindCSS',
     'Firebase',
-    'Git'
+    'Git',
+    'Github'
   ]
 };
 
 export const contact = {
   title: 'Contact Me',
-  email: 'lebron@gmail.com',
-  github: 'theking-lbj',
-  dribbble: 'theking-lbj',
-  linkedin: 'theking-lbj'
+  email: 'victorpetkov2006@gmail.com',
+  cv: 'see here!',
+  github: 'vicvenpet',
+  dribbble: 'vicvenpet',
+  linkedin: 'vicvenpet'
 };

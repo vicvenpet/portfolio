@@ -15,7 +15,7 @@ export default function Projects() {
           return (
             <div
               key={index}
-              className="p-6 border border-lightText rounded-xl mb-4"
+              className="p-6 border border-violet-400 border-lightText rounded-xl mb-4"
             >
               <h3>{item.title}</h3>
               <p>{item.description}</p>
@@ -23,7 +23,7 @@ export default function Projects() {
                 {item.link && (
                   <a
                     href={item.link}
-                    className="flex items-center  py-1 px-3"
+                    className="font-bold flex items-center  py-1 px-3"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -41,7 +41,7 @@ export default function Projects() {
                 {item.github && (
                   <a
                     href={`https://github.com/${item.github}`}
-                    className="flex items-center py-1 px-3"
+                    className="font-bold flex items-center py-1 px-3"
                     target="_blank"
                     rel="noreferrer"
                   >
