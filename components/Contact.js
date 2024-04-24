@@ -22,7 +22,7 @@ export default function Stack() {
       My CV:{' '}
         <a
           className="dark:text-white text-black transition-colors duration-500"
-          href={`https://drive.google.com/file/d/1Ujr2WTF1LMMyV4U1vGrT8vwgNsuUudzA/view?usp=sharing`}
+          href={`https://drive.google.com/file/d/1udAVUUMWt7ywpR7nyk-gjBu2Z-Rzoy_C/view?usp=sharing`}
           target="_blank"
           rel="noreferrer"
         >
