@@ -1,11 +1,11 @@
 export const meta = {
   title: 'Viktor P. - Web Developer',
-  description: 'Hey, I\'m a web developer, I love build and break things.'
+  description: 'Hey, I\'m a web developer, I love building and breaking things.'
 }
 
 export const hero = {
   title: "Hey there! I\'m Viktor P.",
-  desc: "I'm a web developer, I love build and break things."
+  desc: "I'm a web developer, I love building and breaking things.⚙️"
 };
 
 export const projects = {
@@ -20,7 +20,7 @@ export const projects = {
     },
     {
       title: 'Ovra Store CMS',
-      description: 'Ovra\'s website is a modern dynamic generated website built using React + NextJS. Own API for the CMS. All rights reserved.',
+      description: 'Ovra\'s website is a modern dynamically generated website built using React + NextJS. Has its own API for the CMS. All rights reserved.',
       link: 'https://ovra.store',
       github: 'VFPT'
     }
