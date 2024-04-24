@@ -1,11 +1,11 @@
 export const meta = {
-  title: 'Viktor P. - Web Developer',
-  description: 'Hey, I\'m a web developer, I love building and breaking things.'
+  title: 'Víctor Petkov - Portfolio',
+  description: 'Hey, I\'m a software and web developer, I love building and breaking things.'
 }
 
 export const hero = {
-  title: "Hey there! I\'m Viktor P.",
-  desc: "I'm a web developer, I love building and breaking things.⚙️"
+  title: "Hey there! I\'m Víctor Petkov.",
+  desc: "I'm a software and web developer, I love building and breaking things. I have a degree in Microcomputer Systems and Network Technician.🖥️"
 };
 
 export const projects = {
