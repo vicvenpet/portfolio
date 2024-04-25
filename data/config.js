@@ -29,12 +29,12 @@ export const projects = {
 
 export const certificates = {
   title: "My Certificates",
-  desc: "All the certificates that I consider most important.",
+  desc: "Sample of all the certificates I have obtained  during my studies.",
   certificates: [
     {
       title: "Cisco Networking Academy: Networking Essentials",
       description: "Completion of the Cisco Networking Academy® Networking Essentials course and demonstration of the necessary skills.",
-      link: "https://certificado-cisco.tiiny.site",
+      link: "https://cisco.tiiny.site",
     }
   ]
 };
