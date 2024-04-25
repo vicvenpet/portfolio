@@ -5,7 +5,7 @@ export const meta = {
 
 export const hero = {
   title: "Hey there! I\'m Víctor Petkov.",
-  desc: "I'm a software and web developer, I love building and breaking things. I have a degree in Microcomputer Systems and Network Technician.🖥️"
+  desc: "I'm a software and web developer, I love building and breaking things. I have a degree in Microcomputer Systems and Network Technician. 🖥️"
 };
 
 export const projects = {
