@@ -8,6 +8,18 @@ export const hero = {
   desc: "I'm a software and web developer, I love building and breaking things. I have a degree in Microcomputer Systems and Network Technician. 🖥️"
 };
 
+export const jobs = {
+  title: "Worked in",
+  desc: "Companies where I have worked or currently work.",
+  jobs: [
+    {
+      title: "Playmanity",
+      description: "Playmanity is a Ukrainian startup focused on providing paid games for free through ad-supported models. I worked as a sales advisor, attracting new customers to their platform.",
+      link: "https://playmanity.net",
+    }
+  ]
+}
+
 export const projects = {
   title: 'My Projects',
   desc: "Here are some of my favorite projects that I've worked and contributed on.",
