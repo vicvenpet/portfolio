@@ -14,8 +14,9 @@ export const jobs = {
   jobs: [
     {
       title: "Playmanity",
-      description: "Playmanity is a Ukrainian startup focused on providing paid games for free through ad-supported models. I worked as a sales advisor, attracting new customers to their platform.",
-      link: "https://playmanity.net",
+      description: "Ukrainian startup focused on providing paid games for free through ad-supported models. I worked as a sales advisor, attracting new customers to their platform.",
+      timeframe: "Jul. 2022 - Jan. 2023",
+      link: "https://playmanity.net"
     }
   ]
 }
