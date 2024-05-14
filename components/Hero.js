@@ -3,7 +3,7 @@ import { hero } from '@/data/config';
 
 export default function Hero() {
   const handleDownloadCV = () => {
-    window.open('https://drive.google.com/uc?export=download&id=1KNKrH6Kkwnmp4Imdovle_ghSJxZRcMSd', '_blank');
+    window.open('https://drive.google.com/uc?export=download&id=1h4AC51mN0CU5fv2gV7YYf0QJFPAasXXT', '_blank');
   };
 
   return (
