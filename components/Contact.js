@@ -18,17 +18,6 @@ export default function Stack() {
           {contact.email}
         </a>
       </p>
-      <p>
-      My CV:{' '}
-        <a
-          className="dark:text-white text-black transition-colors duration-500"
-          href={`https://cvitae.tiiny.site/`}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {contact.cv}
-        </a>
-      </p>
       <div className="flex space-x-5 mt-5 text-lightText transition-colors duration-500">
         {contact.github && (
           <a

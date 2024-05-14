@@ -13,7 +13,7 @@ export const jobs = {
   desc: "Companies where I have worked or currently work.",
   jobs: [
     {
-      title: "Playmanity",
+      title: "Playmanity LLC",
       description: "Ukrainian startup focused on providing paid games for free through ad-supported models. I worked as a sales advisor, attracting new customers to their platform.",
       timeframe: "Jul. 2022 - Jan. 2023",
       link: "https://playmanity.net"
@@ -33,7 +33,7 @@ export const projects = {
     },
     {
       title: 'Ovra Store CMS',
-      description: 'Ovra\'s website is a modern dynamically generated website built using React + NextJS. Has its own API for the CMS. All rights reserved.',
+      description: 'Ovra\'s website is built using React + NextJS. Own API for the CMS.',
       link: 'https://ovra.store',
       github: 'VFPT'
     }
@@ -47,7 +47,7 @@ export const certificates = {
     {
       title: "Cisco Networking Academy: Networking Essentials",
       description: "Completion of the Cisco Networking Academy® Networking Essentials course and demonstration of the necessary skills.",
-      link: "https://cisco.tiiny.site",
+      link: "https://netacad.com/",
     }
   ]
 };
@@ -71,7 +71,6 @@ export const stack = {
 export const contact = {
   title: 'Contact Me',
   email: 'hello@vicvenpet.xyz',
-  cv: 'see here!',
   github: 'vicvenpet',
   dribbble: 'vicvenpet',
   linkedin: 'vicvenpet'
