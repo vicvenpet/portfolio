@@ -66,8 +66,11 @@ export const stack = {
     'JavaScript',
     'Typescript',
     'React',
+    'Gatsby',
     'NextJS',
+    'VueJS',
     'TailwindCSS',
+    'Clerk',
     'Firebase',
     'Git',
     'Github'
