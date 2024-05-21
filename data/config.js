@@ -26,16 +26,22 @@ export const projects = {
   desc: "Here are some of my favorite projects that I've worked and contributed on.",
   projects: [
     {
-      title: 'Skyline Website',
+      title: 'Emulator Website',
       description: 'Skyline\'s website is a modern statically generated website built using React + Gatsby, licensed under BSD-3-Clause.',
       link: 'https://skyline-emu.one',
       github: 'skyline-emu/website'
     },
     {
-      title: 'Ovra Store CMS',
-      description: 'Ovra\'s website is built using React + NextJS. Own API for the CMS.',
+      title: 'Article Summariser AI',
+      description: 'Free tool using RapidAPI to summarise articles with the link only. React + Vue.js.',
+      link: 'https://ovra-prompt.vercel.app',
+      github: 'VFPT/ovra-prompt'
+    },
+    {
+      title: 'E-commerce CMS',
+      description: 'Admin panel for an E-commerce built using React + NextJS. Own API for the CMS.',
       link: 'https://ovra.store',
-      github: 'VFPT'
+      github: 'VFPT/ovra-admin'
     }
   ]
 };

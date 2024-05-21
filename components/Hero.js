@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <div className="mb-20">
       <div className="flex flex-row items-center justify-between w-full">
-        <div className="border border-gray-300 border-2 w-20 h-20 rounded-full relative overflow-hidden">
+        <div className="border border-gray-300 w-20 h-20 rounded-full relative overflow-hidden transition delay-115 bg-blue-500 hover:scale-110 hover:bg-indigo-500 duration-300">
           <Image
             src="/static/profile.png"
             layout="fill"
