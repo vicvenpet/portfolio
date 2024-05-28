@@ -35,7 +35,7 @@ export default function Jobs() {
                         height={18}
                         alt="Link icon"
                       />
-                      <span className="ml-2 text-blue-500 transition-colors hover:text-blue-400 duration-500">
+                      <span className="ml-2 text-blue-500 transition-colors hover:underline duration-500">
                         {item.link}
                       </span>
                     </a>
@@ -53,7 +53,7 @@ export default function Jobs() {
                         height={18}
                         alt="Link icon"
                       />
-                      <span className="ml-2 text-lightText transition-colors duration-500">
+                      <span className="ml-2 text-lightText  transition-colors hover:underline duration-500">
                         {item.github}
                       </span>
                     </a>
