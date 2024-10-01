@@ -1,6 +1,7 @@
 import React from "react";
 import { Playfair_Display, Lato } from 'next/font/google'
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 
 const playfair = Playfair_Display({
@@ -65,6 +66,25 @@ export default function AboutMe() {
           <p className="text-lg font-foreground mb-6">
             If you want to talk, email me to: <span className='underline'>hello [at] this website</span>. 
           </p>
+        </section>
+
+        <section className="flex space-x-4">
+          <a
+            href="https://github.com/vicvenpet"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-gray-900 transition duration-300"
+          >
+            <FaGithub size={35} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/vicvenpet"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-gray-900 transition duration-300"
+          >
+            <FaLinkedin size={35} />
+          </a>
         </section>
       </main>
     </div>
