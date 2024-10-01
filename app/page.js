@@ -57,7 +57,7 @@ export default function AboutMe() {
         <section>
           <h3 className="text-2xl font-semibold mb-3 font-foreground">Beyond Coding</h3>
           <p className="text-lg font-foreground">
-            I've been programming for years, so if you find any program or line of code that can be abobinable, I wouldn't be surprised, be careful lol.
+            I&apos;ve been programming for years, so if you find any program or line of code that can be abominable, I wouldn&apos;t be surprised, be careful lol.
           </p>
         </section>
         
