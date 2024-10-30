@@ -16,7 +16,7 @@ const projects: Project[] = [
     description:
       'style: conversion to svg and markdown format.',
     image:
-      'https://raw.githubusercontent.com/skyline-emu/branding/refs/heads/master/kofi/cover-banner.png',
+      'https://opengraph.githubassets.com/72a2ec30bf9a21f65be43ad0c5e90140c1dfa40e4e5383dbe12a9d65de6d53eb/skyline-emu/website',
     link: 'https://github.com/skyline-emu/website/pull/5',
   },
   {
@@ -24,7 +24,7 @@ const projects: Project[] = [
     title: 'midudev/landing-infojobs',
     description: 'fix: follow us store apps guidelines.',
     image:
-      'https://brand.infojobs.net/images/logo-base.png',
+      'https://opengraph.githubassets.com/219e2db1fcd0ae7b51c74de488d9fda5d29244377fefebb563dc96494b9c2cfc/midudev/landing-infojobs',
     link: 'https://github.com/midudev/landing-infojobs/pull/115',
   },
 ];
