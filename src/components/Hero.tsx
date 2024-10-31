@@ -31,7 +31,7 @@ export default function Hero() {
         <span className="inline-flex items-center gap-2">
           <span className='relative inline-flex items-center'>
             <span className="w-3 h-3 bg-green-500 rounded-full -ml-0 animate-ping"></span>
-            <span className="w-2 h-2 bg-green-200 rounded-full absolute inset-0 m-auto"></span>
+            <span className="w-2 h-2 bg-green-300 rounded-full absolute inset-0 m-auto"></span>
           </span>
           Available for new projects
         </span>

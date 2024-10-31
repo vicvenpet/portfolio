@@ -21,12 +21,12 @@ const technologies = [
   { icon: SiJavascript, name: 'JavaScript' },
   { icon: FaAws, name: 'AWS' },
   { icon: SiReact, name: 'React' },
-  { icon: GrMysql, name: 'S' },
+  { icon: GrMysql, name: 'SQL' },
 ];
 
 export default function Technologies() {
   return (
-    <section className="py-24 dark:bg-black dark:text-white">
+    <section className="py-24 dark:bg-black dark:text-white border-t border-zinc-800">
       <div className="max-w-[1200px] mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-16 dark:text-white">
           Newly employed stack

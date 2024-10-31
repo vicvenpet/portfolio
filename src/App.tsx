@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Stack from './components/Stack';
+import { PreFooter } from './components/Prefooter';
+import { Footer } from './components/Footer';
 
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -29,6 +31,8 @@ function App() {
       <Hero />
       <Projects />
       <Stack />
+      <PreFooter />
+      <Footer />
     </div>
   );
 }

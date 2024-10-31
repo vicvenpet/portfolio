@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { ArrowRight } from 'lucide-react';
 
 interface Project {
   id: number;
@@ -12,27 +12,22 @@ const projects: Project[] = [
   {
     id: 1,
     title: 'skyline-emu/website',
-    description:
-      'style: conversion to svg and markdown format.',
-    image:
-      'https://opengraph.githubassets.com/72a2ec30bf9a21f65be43ad0c5e90140c1dfa40e4e5383dbe12a9d65de6d53eb/skyline-emu/website',
+    description: 'style: conversion to svg and markdown format.',
+    image: 'https://opengraph.githubassets.com/72a2ec30bf9a21f65be43ad0c5e90140c1dfa40e4e5383dbe12a9d65de6d53eb/skyline-emu/website',
     link: 'https://github.com/skyline-emu/website/pull/5',
   },
   {
     id: 2,
     title: 'midudev/landing-infojobs',
     description: 'fix: follow us store apps guidelines.',
-    image:
-      'https://opengraph.githubassets.com/219e2db1fcd0ae7b51c74de488d9fda5d29244377fefebb563dc96494b9c2cfc/midudev/landing-infojobs',
+    image: 'https://opengraph.githubassets.com/219e2db1fcd0ae7b51c74de488d9fda5d29244377fefebb563dc96494b9c2cfc/midudev/landing-infojobs',
     link: 'https://github.com/midudev/landing-infojobs/pull/115',
   },
 ];
 
 export default function Projects() {
-  const [hoveredId, setHoveredId] = useState<number | null>(null);
-
   return (
-    <section className="py-20 px-4">
+    <section className="py-20 px-4 border-t border-zinc-800">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-4 dark:text-white">
           Notable Contributions
@@ -42,26 +37,17 @@ export default function Projects() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
-            <div
-              key={project.id}
-              className="group relative"
-              onMouseEnter={() => setHoveredId(project.id)}
-              onMouseLeave={() => setHoveredId(null)}
-            >
+            <div key={project.id} className="group relative">
               <a
                 href={project.link}
                 className="block w-full h-[280px] overflow-hidden bg-gray-100 dark:bg-gray-800"
                 target='_blank'
               >
-                    <img
-                      src={project.image}
-                      alt={project.title}
-                      className={`w-full h-full object-cover transition-all duration-500 ${
-                      hoveredId === project.id
-                        ? 'grayscale-0 scale-105'
-                        : 'grayscale'
-                      }`}
-                    />
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover transition-all duration-500"
+                />
                 <div className="absolute inset-0 bg-black/40 transition-opacity duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
                 </div>
               </a>
@@ -80,11 +66,11 @@ export default function Projects() {
         <div className="text-center mt-12">
           <a
             href="https://github.com/vicvenpet?tab=overview"                      
-            className="inline-flex items-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
+            className="inline-flex items-center text-white hover:text-gray-300 transition-colors duration-300 hover:underline"
             target='_blank'
           >
-            More contributions
-            <sup className="ml-1">[+]</sup>
+            more contributions
+            <span className="ml-2"><ArrowRight /></span>
           </a>
         </div>
       </div>
