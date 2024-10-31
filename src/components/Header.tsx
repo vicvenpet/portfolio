@@ -28,13 +28,13 @@ export default function Header() {
         
         <div className="text-2xl font-bold text-white px-2 py-2 rounded-full flex items-center">
           <span className="pr-2 pt-1">
-            <Waypoints />
+            <Waypoints className='text-blue-400' />
           </span>
           vicvenpet
         </div>
 
         <a
-          href="mailto:hello@vicvenpet.xyz"
+          href="#contact"
           className="text-black px-5 py-2 flex hover:opacity-90 bg-white rounded-full items-center justify-center gap-2"
         >
           Contact

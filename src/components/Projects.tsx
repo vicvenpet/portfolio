@@ -66,11 +66,11 @@ export default function Projects() {
         <div className="text-center mt-12">
           <a
             href="https://github.com/vicvenpet?tab=overview"                      
-            className="inline-flex items-center text-white hover:text-gray-300 transition-colors duration-300 hover:underline"
+            className="inline-flex items-center text-white hover:underline"
             target='_blank'
           >
             more contributions
-            <span className="ml-2"><ArrowRight /></span>
+            <span className="ml-2"><ArrowRight size={15} /></span>
           </a>
         </div>
       </div>

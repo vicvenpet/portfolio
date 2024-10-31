@@ -5,9 +5,9 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
   
   const socialLinks = [
-    { icon: FaLinkedin, href: '#', label: 'LinkedIn' },
-    { icon: FaGithub, href: '#', label: 'GitHub' },
-    { icon: IoMdMail, href: '#', label: 'Email' },
+    { icon: FaLinkedin, href: 'https://www.linkedin.com/in/vicvenpet/', label: 'LinkedIn' },
+    { icon: FaGithub, href: 'https://github.com/vicvenpet?tab=repositories', label: 'GitHub' },
+    { icon: IoMdMail, href: 'mailto:hello@vicvenpet.xyz', label: 'Email' },
   ];
 
   return (
