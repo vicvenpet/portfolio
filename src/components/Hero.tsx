@@ -2,7 +2,7 @@ import { Download, CalendarSearch } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <main className="min-h-screen flex flex-col justify-center items-center text-center px-4 dark:bg-black dark:text-white">
+    <main className="min-h-screen flex flex-col justify-center items-center text-center px-4  dark:text-white">
       <h1 className="text-6xl md:text-7xl font-bold mb-6 underline decoration-wavy decoration-2">Víctor Petkov</h1>
       <h2 className="text-2xl md:text-3xl mb-1 text-blue-400">high-tech work.</h2>
       <p className="text-xl max-w-2xl mb-8 text-blue-200">
